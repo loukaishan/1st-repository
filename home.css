@@ -1,0 +1,94 @@
+body, html {width: 100%;
+           height: 100%;
+		   margin: 0;
+		   padding: 0}
+    .home-url {position: fixed;
+                top: 7%;
+                left: 0;
+                right: 0; 
+                bottom: 0;
+                background-color: white; 
+                -webkit-overflow-scrolling: touch;
+                 overflow: auto;-webkit-overflow-scrolling:touch;
+                }
+    .home-url iframe {display: block;
+                width: 100%;
+                height: 86%;
+                border: none;
+                
+                }
+    .url-input input {
+                top: 0;
+			    left: 20%;
+                width: 55%;
+                height:5%;
+                border: none;
+                text-align: center;
+                position: fixed;    
+                background-color:white;
+                border: 2px solid gray;          
+                -moz-border-radius: 5px;
+                -webkit-border-radius: 5px;        
+                }
+     .button-go input { 
+                top: 0;
+			    right: 2%;
+                width: 15%;
+                height:6%;
+                border: none;
+                text-align: center;
+                position: fixed;    
+                background-color:#ccc;
+                border: 2px solid gray;
+                font-family: "Arial Black", Gadget, sans-serif;            
+                -moz-border-radius: 5px;
+                -webkit-border-radius: 5px;  
+                }
+     .button-back input{
+                top: 0;
+			    left: 2%;
+                width: 15%;
+                height:6%;
+                border: none;
+                text-align: center;
+                position: fixed;    
+                 background-color:#ccc;
+                border: 2px solid gray;
+                font-family: "Arial Black", Gadget, sans-serif;            
+                -moz-border-radius: 5px;
+                -webkit-border-radius: 5px;   
+                background:url(homeButton2.jpg) no-repeat;
+
+                background-size: 100% auto;
+                }
+      .left-hand  input{
+        
+                bottom: 1%;
+                left: 2%;
+                width: 46%;
+                border: none;
+                text-align: center;
+                position: fixed;    
+                background-color:#ccc;
+                border: 2px solid gray;
+                font-family: "Arial Black", Gadget, sans-serif;            
+                -moz-border-radius: 5px;
+                -webkit-border-radius: 5px;
+                height:6%;
+
+                }
+      .right-hand input{
+                bottom: 1%;
+                right: 2%;
+                width: 46%;
+                border: none;
+                text-align: center;
+                position: fixed;    
+                 background-color:#ccc;
+                border: 2px solid gray;
+                font-family: "Arial Black", Gadget, sans-serif;            
+                -moz-border-radius: 5px;
+                -webkit-border-radius: 5px;  
+                height:6%;            
+                }
+     

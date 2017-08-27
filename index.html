@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <link rel="stylesheet" type="text/css" href="home.css"/>
+    <script type="text/javascript" src="functions.js"></script>
+   
+    
+  </head>
+<body>
+
+  
+
+<!-- Start of Home page -->
+<div data-role="page" id="home">
+
+  <div class="home-url">
+    <iframe id="home-browser" name="home-browser" src="https://www.cs.drexel.edu/~dl697/cs530/Lab5/index.html"></iframe>           
+  </div>
+
+
+  <!-- back, go and url button -->
+  <div class="url-input">                   
+    <input name="text" type="text"  id="goput" title="Enter URL here, and click 'Go' (NOT ENTER)" onfocus="if(this.value=='https://www.cs.drexel.edu/~dl697/cs530/Lab3/Register.html'){this.value='http://'};" onblur="if(this.value==''){this.value='https://www.cs.drexel.edu/~dl697/cs530/Lab3/Register.html'};" value="https://www.cs.drexel.edu/~dl697/cs530/Lab3/Register.html" style="font-size:48px;"/>   
+  </div>  
+  
+  <div class="button-go">
+    <input name="button2" type="button"  onclick="document.getElementById('home-browser').src=document.getElementById('goput').value;" value="Go" title="Do not hit enter, but rather use the Go button"  style="font-size:38px;"/>          
+  </div>  
+  
+  <div class="button-back">
+    <input name="button3" type="button" class="submit" title="Go back one page" onclick="document.getElementById('home-browser').src = 'https://www.cs.drexel.edu/~dl697/cs530/Lab5/index.html' ;" value="" style="font-size:38px;"/>
+  </div>
+   
+  <!-- mode change and footer  -->    
+  
+  <div class="left-hand"> 
+    <input name="button4" type="button" onclick="leftHand()" value="LeftHand" style="font-size:38px;"/>
+  </div>
+  
+  <div class="right-hand"> 
+    <input name="button5" type="button" onclick="rightHand()" value="RightHand" style="font-size:38px;"/>
+  </div>
+  
+  
+
+  
+  
+</div>
+  
+
+</body>
+</html>
